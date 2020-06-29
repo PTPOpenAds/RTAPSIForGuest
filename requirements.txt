@@ -1,0 +1,8 @@
+python=3.8
+gmpy2==2.0.8
+numpy==1.18.2
+pycryptodomex=3.9.7
+bitarray=1.2.1
+cityhash=0.2.3.post9
+murmurhash=1.0.2
+mmh3=2.5.1

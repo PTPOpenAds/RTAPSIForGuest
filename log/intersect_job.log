@@ -1,0 +1,389 @@
+2020-06-29 19:18:37,102 INFO      [run_generate_guest_bitmap.py:120(run)] guest_data_len: 100000
+2020-06-29 19:18:37,103 ERROR     [run_generate_guest_bitmap.py:42(generate_bool_filter_bits)] Start generate_bool_filter_bits
+2020-06-29 19:18:37,103 ERROR     [run_generate_guest_bitmap.py:49(generate_bool_filter_bits)] Step1/3: Start Guest-run_for_start.
+2020-06-29 19:18:37,103 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_host_big_num_N
+2020-06-29 19:18:37,103 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043']
+2020-06-29 19:18:37,103 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_guest_private_key_D
+2020-06-29 19:18:37,103 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313']
+2020-06-29 19:18:37,103 INFO      [intersect_guest.py:51(init_rsa_param)] init_rsa_param self.host_rsa_n: 123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043, self.d: 3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313
+2020-06-29 19:18:37,103 ERROR     [run_generate_guest_bitmap.py:52(generate_bool_filter_bits)] Step1/3: Guest-run_for_start, time_used: 0 seconds
+2020-06-29 19:18:37,103 ERROR     [run_generate_guest_bitmap.py:59(generate_bool_filter_bits)] Step2/3: Start guest-BloomFilter param init.
+2020-06-29 19:18:37,103 ERROR     [intersect_guest.py:57(gen_bloom_filter_param)] Start-Guest-gen_bloom_filter_param:
+2020-06-29 19:18:37,103 ERROR     [intersect_guest.py:58(gen_bloom_filter_param)] m = {0} 
+ n = {1} 
+ k = {2} 
+ e = {3}% 
+ 
+2020-06-29 19:18:37,104 ERROR     [intersect_guest.py:71(gen_bloom_filter_param)] m = 1755661 
+ n = 110000 
+ k = 11.000000 
+ e = 0.046% 
+ expect_precision = 99.953% 
+ data_size = 0.21M
+2020-06-29 19:18:37,104 ERROR     [hash_set.py:168(gen_hash_set_v3)] hash_size - len(base_set): 9
+2020-06-29 19:18:37,104 ERROR     [hash_set.py:174(gen_hash_set_v3)] gen_hash_set-hash_set_result: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef75cd0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef75790>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91100>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef911f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91250>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef912b0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91160>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91340>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef913a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91400>]
+2020-06-29 19:18:37,118 INFO      [intersect_guest.py:81(gen_bloom_filter_param)] hash_set_list deatil: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef75cd0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef75790>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91100>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef911f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91250>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef912b0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91160>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91340>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef913a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f56cef91400>]
+2020-06-29 19:18:37,119 ERROR     [run_generate_guest_bitmap.py:62(generate_bool_filter_bits)] Step2/3: guest-BloomFilter param init, time_used: 0 seconds
+2020-06-29 19:18:37,119 ERROR     [run_generate_guest_bitmap.py:71(generate_bool_filter_bits)] Step3/3: Start Guest-process guest ids with hash+BloomFilter, gen bits_A.
+2020-06-29 19:18:37,119 INFO      [intersect_guest.py:148(generate_guest_ids_bloom_filter_bits)] Start generate_guest_ids_bloom_filter_bits
+2020-06-29 19:18:37,119 INFO      [intersect_guest.py:166(generate_guest_ids_bloom_filter_bits)] generate_guest_ids_bloom_filter_bits, file_list: ['00']
+2020-06-29 19:18:37,131 INFO      [intersect_guest.py:183(generate_guest_ids_bloom_filter_bits)] MultiProcess, total_split_file_size: 1, cur_split_file_idx: 0 cur_rool: 0, cur_file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:18:37,132 INFO      [intersect_guest.py:192(generate_guest_ids_bloom_filter_bits)] running_rool_size: 1
+2020-06-29 19:18:37,149 ERROR     [intersect_guest.py:109(generate_bloom_bits_by_file_split_id)] Cur_idx: 00, file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:18:41,702 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 10000 / 3000000
+2020-06-29 19:18:46,249 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 20000 / 3000000
+2020-06-29 19:18:50,798 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 30000 / 3000000
+2020-06-29 19:18:55,353 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 40000 / 3000000
+2020-06-29 19:18:59,901 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 50000 / 3000000
+2020-06-29 19:19:04,444 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 60000 / 3000000
+2020-06-29 19:19:08,989 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 70000 / 3000000
+2020-06-29 19:19:13,534 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 80000 / 3000000
+2020-06-29 19:19:18,078 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 90000 / 3000000
+2020-06-29 19:19:22,622 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 100000 / 3000000
+2020-06-29 19:19:22,625 ERROR     [intersect_guest.py:128(generate_bloom_bits_by_file_split_id)] write_bits_to_file, split_id: 00,  data_file_path: ./psi_intersect/transfer_files/guest_split_file/00 bit_result_path: ./psi_intersect/transfer_files/guest_bits_file/00 bit_count_1_num: 817168 bloom_filter_m: 1755661
+2020-06-29 19:19:22,625 ERROR     [intersect_guest.py:137(generate_bloom_bits_by_file_split_id)] generate_bloom_bits_by_file_split_id succ: 00
+2020-06-29 19:19:22,628 INFO      [intersect_guest.py:196(generate_guest_ids_bloom_filter_bits)] process_succ, result_bits_map size: 1
+2020-06-29 19:19:22,629 ERROR     [intersect_guest.py:200(generate_guest_ids_bloom_filter_bits)] processed_id: 00, bit_array_1_size: 817168
+2020-06-29 19:19:22,631 ERROR     [intersect_guest.py:218(generate_guest_ids_bloom_filter_bits)] write_all_bits_to_file,  data_file_path: ./psi_intersect/transfer_files/phone_num_guest.csv bit_result_path: ./psi_intersect/transfer_files/guest_all_bits bit_count_1_num: 817168
+2020-06-29 19:19:22,636 ERROR     [run_generate_guest_bitmap.py:75(generate_bool_filter_bits)] Step3/3: Guest-process generate bits_A, time_used: 45 seconds
+2020-06-29 19:19:22,636 ERROR     [run_generate_guest_bitmap.py:82(generate_bool_filter_bits)] The function total run time is : 45 seconds
+2020-06-29 19:21:38,807 INFO      [run_generate_guest_bitmap.py:129(<module>)] 
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+2020-06-29 19:21:38,807 INFO      [run_generate_guest_bitmap.py:130(<module>)] Start run_generate_guest_bitmap.py, cur_date: 2020-06-29 19:21:38
+2020-06-29 19:21:38,825 INFO      [run_generate_guest_bitmap.py:121(run)] guest_data_len: 100000
+2020-06-29 19:21:38,825 ERROR     [run_generate_guest_bitmap.py:43(generate_bool_filter_bits)] Start generate_bool_filter_bits
+2020-06-29 19:21:38,825 ERROR     [run_generate_guest_bitmap.py:50(generate_bool_filter_bits)] Step1/3: Start Guest-run_for_start.
+2020-06-29 19:21:38,825 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_host_big_num_N
+2020-06-29 19:21:38,825 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043']
+2020-06-29 19:21:38,825 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_guest_private_key_D
+2020-06-29 19:21:38,825 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313']
+2020-06-29 19:21:38,825 INFO      [intersect_guest.py:51(init_rsa_param)] init_rsa_param self.host_rsa_n: 123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043, self.d: 3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313
+2020-06-29 19:21:38,825 ERROR     [run_generate_guest_bitmap.py:53(generate_bool_filter_bits)] Step1/3: Guest-run_for_start, time_used: 0 seconds
+2020-06-29 19:21:38,826 ERROR     [run_generate_guest_bitmap.py:60(generate_bool_filter_bits)] Step2/3: Start guest-BloomFilter param init.
+2020-06-29 19:21:38,826 ERROR     [intersect_guest.py:57(gen_bloom_filter_param)] Start-Guest-gen_bloom_filter_param:
+2020-06-29 19:21:38,826 ERROR     [intersect_guest.py:58(gen_bloom_filter_param)] m = {0} 
+ n = {1} 
+ k = {2} 
+ e = {3}% 
+ 
+2020-06-29 19:21:38,826 ERROR     [intersect_guest.py:71(gen_bloom_filter_param)] m = 1755661 
+ n = 110000 
+ k = 11.000000 
+ e = 0.046% 
+ expect_precision = 99.953% 
+ data_size = 0.21M
+2020-06-29 19:21:38,826 ERROR     [hash_set.py:168(gen_hash_set_v3)] hash_size - len(base_set): 9
+2020-06-29 19:21:38,826 ERROR     [hash_set.py:174(gen_hash_set_v3)] gen_hash_set-hash_set_result: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132d9ee0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132d9f70>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef1f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef0a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef2e0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef340>]
+2020-06-29 19:21:38,842 INFO      [intersect_guest.py:81(gen_bloom_filter_param)] hash_set_list deatil: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132d9ee0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132d9f70>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef1f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef0a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef2e0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fb9132ef340>]
+2020-06-29 19:21:38,842 ERROR     [run_generate_guest_bitmap.py:63(generate_bool_filter_bits)] Step2/3: guest-BloomFilter param init, time_used: 0 seconds
+2020-06-29 19:21:38,842 ERROR     [run_generate_guest_bitmap.py:72(generate_bool_filter_bits)] Step3/3: Start Guest-process guest ids with hash+BloomFilter, gen bits_A.
+2020-06-29 19:21:38,842 INFO      [intersect_guest.py:148(generate_guest_ids_bloom_filter_bits)] Start generate_guest_ids_bloom_filter_bits
+2020-06-29 19:21:38,842 INFO      [intersect_guest.py:166(generate_guest_ids_bloom_filter_bits)] generate_guest_ids_bloom_filter_bits, file_list: ['00']
+2020-06-29 19:21:38,856 INFO      [intersect_guest.py:183(generate_guest_ids_bloom_filter_bits)] MultiProcess, total_split_file_size: 1, cur_split_file_idx: 0 cur_rool: 0, cur_file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:21:38,857 INFO      [intersect_guest.py:192(generate_guest_ids_bloom_filter_bits)] running_rool_size: 1
+2020-06-29 19:21:38,874 ERROR     [intersect_guest.py:109(generate_bloom_bits_by_file_split_id)] Cur_idx: 00, file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:21:43,434 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 10000 / 3000000
+2020-06-29 19:21:47,993 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 20000 / 3000000
+2020-06-29 19:21:52,552 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 30000 / 3000000
+2020-06-29 19:21:57,109 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 40000 / 3000000
+2020-06-29 19:22:01,667 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 50000 / 3000000
+2020-06-29 19:22:06,225 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 60000 / 3000000
+2020-06-29 19:22:10,780 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 70000 / 3000000
+2020-06-29 19:22:15,335 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 80000 / 3000000
+2020-06-29 19:22:19,892 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 90000 / 3000000
+2020-06-29 19:22:24,448 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 100000 / 3000000
+2020-06-29 19:22:24,450 ERROR     [intersect_guest.py:128(generate_bloom_bits_by_file_split_id)] write_bits_to_file, split_id: 00,  data_file_path: ./psi_intersect/transfer_files/guest_split_file/00 bit_result_path: ./psi_intersect/transfer_files/guest_bits_file/00 bit_count_1_num: 817168 bloom_filter_m: 1755661
+2020-06-29 19:22:24,451 ERROR     [intersect_guest.py:137(generate_bloom_bits_by_file_split_id)] generate_bloom_bits_by_file_split_id succ: 00
+2020-06-29 19:22:24,454 INFO      [intersect_guest.py:196(generate_guest_ids_bloom_filter_bits)] process_succ, result_bits_map size: 1
+2020-06-29 19:22:24,455 ERROR     [intersect_guest.py:200(generate_guest_ids_bloom_filter_bits)] processed_id: 00, bit_array_1_size: 817168
+2020-06-29 19:22:24,456 ERROR     [intersect_guest.py:218(generate_guest_ids_bloom_filter_bits)] write_all_bits_to_file,  data_file_path: ./psi_intersect/transfer_files/phone_num_guest.csv bit_result_path: ./psi_intersect/transfer_files/guest_all_bits bit_count_1_num: 817168
+2020-06-29 19:22:24,462 ERROR     [run_generate_guest_bitmap.py:76(generate_bool_filter_bits)] Step3/3: Guest-process generate bits_A, time_used: 45 seconds
+2020-06-29 19:22:24,462 ERROR     [run_generate_guest_bitmap.py:83(generate_bool_filter_bits)] The function total run time is : 45 seconds
+2020-06-29 19:23:53,397 INFO      [run_generate_guest_bitmap.py:129(<module>)] 
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+2020-06-29 19:23:53,398 INFO      [run_generate_guest_bitmap.py:130(<module>)] [StartRun]: run_generate_guest_bitmap.py, cur_time: 2020-06-29 19:23:53
+2020-06-29 19:23:53,413 INFO      [run_generate_guest_bitmap.py:121(run)] guest_data_len: 100000
+2020-06-29 19:23:53,413 ERROR     [run_generate_guest_bitmap.py:43(generate_bool_filter_bits)] Start generate_bool_filter_bits
+2020-06-29 19:23:53,414 ERROR     [run_generate_guest_bitmap.py:50(generate_bool_filter_bits)] Step1/3: Start Guest-run_for_start.
+2020-06-29 19:23:53,414 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_host_big_num_N
+2020-06-29 19:23:53,414 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043']
+2020-06-29 19:23:53,414 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_guest_private_key_D
+2020-06-29 19:23:53,414 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313']
+2020-06-29 19:23:53,414 INFO      [intersect_guest.py:51(init_rsa_param)] init_rsa_param self.host_rsa_n: 123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043, self.d: 3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313
+2020-06-29 19:23:53,414 ERROR     [run_generate_guest_bitmap.py:53(generate_bool_filter_bits)] Step1/3: Guest-run_for_start, time_used: 0 seconds
+2020-06-29 19:23:53,414 ERROR     [run_generate_guest_bitmap.py:60(generate_bool_filter_bits)] Step2/3: Start guest-BloomFilter param init.
+2020-06-29 19:23:53,414 ERROR     [intersect_guest.py:57(gen_bloom_filter_param)] Start-Guest-gen_bloom_filter_param:
+2020-06-29 19:23:53,414 ERROR     [intersect_guest.py:58(gen_bloom_filter_param)] m = {0} 
+ n = {1} 
+ k = {2} 
+ e = {3}% 
+ 
+2020-06-29 19:23:53,414 ERROR     [intersect_guest.py:71(gen_bloom_filter_param)] m = 1755661 
+ n = 110000 
+ k = 11.000000 
+ e = 0.046% 
+ expect_precision = 99.953% 
+ data_size = 0.21M
+2020-06-29 19:23:53,414 ERROR     [hash_set.py:168(gen_hash_set_v3)] hash_size - len(base_set): 9
+2020-06-29 19:23:53,415 ERROR     [hash_set.py:174(gen_hash_set_v3)] gen_hash_set-hash_set_result: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd47dee0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd47df70>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4940d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4941f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4940a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4942e0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494340>]
+2020-06-29 19:23:53,430 INFO      [intersect_guest.py:81(gen_bloom_filter_param)] hash_set_list deatil: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd47dee0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd47df70>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4940d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4941f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4940a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd4942e0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7efddd494340>]
+2020-06-29 19:23:53,430 ERROR     [run_generate_guest_bitmap.py:63(generate_bool_filter_bits)] Step2/3: guest-BloomFilter param init, time_used: 0 seconds
+2020-06-29 19:23:53,430 ERROR     [run_generate_guest_bitmap.py:72(generate_bool_filter_bits)] Step3/3: Start Guest-process guest ids with hash+BloomFilter, gen bits_A.
+2020-06-29 19:23:53,430 INFO      [intersect_guest.py:148(generate_guest_ids_bloom_filter_bits)] Start generate_guest_ids_bloom_filter_bits
+2020-06-29 19:23:53,430 INFO      [intersect_guest.py:166(generate_guest_ids_bloom_filter_bits)] generate_guest_ids_bloom_filter_bits, file_list: ['00']
+2020-06-29 19:23:53,443 INFO      [intersect_guest.py:183(generate_guest_ids_bloom_filter_bits)] MultiProcess, total_split_file_size: 1, cur_split_file_idx: 0 cur_rool: 0, cur_file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:23:53,445 INFO      [intersect_guest.py:192(generate_guest_ids_bloom_filter_bits)] running_rool_size: 1
+2020-06-29 19:23:53,462 ERROR     [intersect_guest.py:109(generate_bloom_bits_by_file_split_id)] Cur_idx: 00, file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:23:58,021 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 10000 / 3000000
+2020-06-29 19:24:02,582 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 20000 / 3000000
+2020-06-29 19:24:07,140 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 30000 / 3000000
+2020-06-29 19:24:11,697 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 40000 / 3000000
+2020-06-29 19:24:16,255 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 50000 / 3000000
+2020-06-29 19:24:20,813 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 60000 / 3000000
+2020-06-29 19:24:25,370 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 70000 / 3000000
+2020-06-29 19:24:29,923 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 80000 / 3000000
+2020-06-29 19:24:34,482 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 90000 / 3000000
+2020-06-29 19:24:39,038 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 100000 / 3000000
+2020-06-29 19:24:39,040 ERROR     [intersect_guest.py:128(generate_bloom_bits_by_file_split_id)] write_bits_to_file, split_id: 00,  data_file_path: ./psi_intersect/transfer_files/guest_split_file/00 bit_result_path: ./psi_intersect/transfer_files/guest_bits_file/00 bit_count_1_num: 817168 bloom_filter_m: 1755661
+2020-06-29 19:24:39,040 ERROR     [intersect_guest.py:137(generate_bloom_bits_by_file_split_id)] generate_bloom_bits_by_file_split_id succ: 00
+2020-06-29 19:24:39,043 INFO      [intersect_guest.py:196(generate_guest_ids_bloom_filter_bits)] process_succ, result_bits_map size: 1
+2020-06-29 19:24:39,044 ERROR     [intersect_guest.py:200(generate_guest_ids_bloom_filter_bits)] processed_id: 00, bit_array_1_size: 817168
+2020-06-29 19:24:39,046 ERROR     [intersect_guest.py:218(generate_guest_ids_bloom_filter_bits)] write_all_bits_to_file,  data_file_path: ./psi_intersect/transfer_files/phone_num_guest.csv bit_result_path: ./psi_intersect/transfer_files/guest_all_bits bit_count_1_num: 817168
+2020-06-29 19:24:39,051 ERROR     [run_generate_guest_bitmap.py:76(generate_bool_filter_bits)] Step3/3: Guest-process generate bits_A, time_used: 45 seconds
+2020-06-29 19:24:39,052 ERROR     [run_generate_guest_bitmap.py:83(generate_bool_filter_bits)] The function total run time is : 45 seconds
+2020-06-29 19:30:09,827 INFO      [run_generate_guest_bitmap.py:129(<module>)] 
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+2020-06-29 19:30:09,827 INFO      [run_generate_guest_bitmap.py:130(<module>)] [StartRun]: run_generate_guest_bitmap.py, cur_time: 2020-06-29 19:30:09
+2020-06-29 19:30:09,843 INFO      [run_generate_guest_bitmap.py:121(run)] guest_data_len: 100000
+2020-06-29 19:30:09,844 ERROR     [run_generate_guest_bitmap.py:43(generate_bool_filter_bits)] Start generate_bool_filter_bits
+2020-06-29 19:30:09,844 ERROR     [run_generate_guest_bitmap.py:50(generate_bool_filter_bits)] Step1/3: Start Guest-run_for_start.
+2020-06-29 19:30:09,844 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_host_big_num_N
+2020-06-29 19:30:09,844 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043']
+2020-06-29 19:30:09,844 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_guest_private_key_D
+2020-06-29 19:30:09,844 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313']
+2020-06-29 19:30:09,844 INFO      [intersect_guest.py:51(init_rsa_param)] init_rsa_param self.host_rsa_n: 123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043, self.d: 3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313
+2020-06-29 19:30:09,844 ERROR     [run_generate_guest_bitmap.py:53(generate_bool_filter_bits)] Step1/3: Guest-run_for_start, time_used: 0 seconds
+2020-06-29 19:30:09,844 ERROR     [run_generate_guest_bitmap.py:60(generate_bool_filter_bits)] Step2/3: Start guest-BloomFilter param init.
+2020-06-29 19:30:09,844 ERROR     [intersect_guest.py:57(gen_bloom_filter_param)] Start-Guest-gen_bloom_filter_param:
+2020-06-29 19:30:09,844 ERROR     [intersect_guest.py:58(gen_bloom_filter_param)] m = {0} 
+ n = {1} 
+ k = {2} 
+ e = {3}% 
+ 
+2020-06-29 19:30:09,845 ERROR     [intersect_guest.py:71(gen_bloom_filter_param)] m = 1755661 
+ n = 110000 
+ k = 11.000000 
+ e = 0.046% 
+ expect_precision = 99.953% 
+ data_size = 0.21M
+2020-06-29 19:30:09,845 ERROR     [hash_set.py:168(gen_hash_set_v3)] hash_size - len(base_set): 9
+2020-06-29 19:30:09,845 ERROR     [hash_set.py:174(gen_hash_set_v3)] gen_hash_set-hash_set_result: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42c7ee0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42c7f70>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd1f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd0a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd2e0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd340>]
+2020-06-29 19:30:09,860 INFO      [intersect_guest.py:81(gen_bloom_filter_param)] hash_set_list deatil: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42c7ee0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42c7f70>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd1f0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd0a0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd2e0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7fd8c42dd340>]
+2020-06-29 19:30:09,860 ERROR     [run_generate_guest_bitmap.py:63(generate_bool_filter_bits)] Step2/3: guest-BloomFilter param init, time_used: 0 seconds
+2020-06-29 19:30:09,860 ERROR     [run_generate_guest_bitmap.py:72(generate_bool_filter_bits)] Step3/3: Start Guest-process guest ids with hash+BloomFilter, gen bits_A.
+2020-06-29 19:30:09,860 INFO      [intersect_guest.py:148(generate_guest_ids_bloom_filter_bits)] Start generate_guest_ids_bloom_filter_bits
+2020-06-29 19:30:09,860 INFO      [intersect_guest.py:166(generate_guest_ids_bloom_filter_bits)] generate_guest_ids_bloom_filter_bits, file_list: ['00']
+2020-06-29 19:30:09,872 INFO      [intersect_guest.py:183(generate_guest_ids_bloom_filter_bits)] MultiProcess, total_split_file_size: 1, cur_split_file_idx: 0 cur_rool: 0, cur_file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:30:09,873 INFO      [intersect_guest.py:192(generate_guest_ids_bloom_filter_bits)] running_rool_size: 1
+2020-06-29 19:30:09,890 ERROR     [intersect_guest.py:109(generate_bloom_bits_by_file_split_id)] Cur_idx: 00, file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:30:14,450 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 10000 / 3000000
+2020-06-29 19:30:19,004 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 20000 / 3000000
+2020-06-29 19:30:23,556 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 30000 / 3000000
+2020-06-29 19:30:28,108 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 40000 / 3000000
+2020-06-29 19:30:32,667 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 50000 / 3000000
+2020-06-29 19:30:37,228 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 60000 / 3000000
+2020-06-29 19:30:41,783 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 70000 / 3000000
+2020-06-29 19:30:46,345 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 80000 / 3000000
+2020-06-29 19:30:50,903 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 90000 / 3000000
+2020-06-29 19:30:55,458 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 100000 / 3000000
+2020-06-29 19:30:55,460 ERROR     [intersect_guest.py:128(generate_bloom_bits_by_file_split_id)] write_bits_to_file, split_id: 00,  data_file_path: ./psi_intersect/transfer_files/guest_split_file/00 bit_result_path: ./psi_intersect/transfer_files/guest_bits_file/00 bit_count_1_num: 817168 bloom_filter_m: 1755661
+2020-06-29 19:30:55,461 ERROR     [intersect_guest.py:137(generate_bloom_bits_by_file_split_id)] generate_bloom_bits_by_file_split_id succ: 00
+2020-06-29 19:30:55,464 INFO      [intersect_guest.py:196(generate_guest_ids_bloom_filter_bits)] process_succ, result_bits_map size: 1
+2020-06-29 19:30:55,465 ERROR     [intersect_guest.py:200(generate_guest_ids_bloom_filter_bits)] processed_id: 00, bit_array_1_size: 817168
+2020-06-29 19:30:55,467 ERROR     [intersect_guest.py:218(generate_guest_ids_bloom_filter_bits)] write_all_bits_to_file,  data_file_path: ./psi_intersect/transfer_files/phone_num_guest.csv bit_result_path: ./psi_intersect/transfer_files/guest_all_bits bit_count_1_num: 817168
+2020-06-29 19:30:55,473 ERROR     [run_generate_guest_bitmap.py:76(generate_bool_filter_bits)] Step3/3: Guest-process generate bits_A, time_used: 45 seconds
+2020-06-29 19:30:55,473 ERROR     [run_generate_guest_bitmap.py:83(generate_bool_filter_bits)] The function total run time is : 45 seconds
+2020-06-29 19:32:43,913 INFO      [run_generate_guest_bitmap.py:129(<module>)] 
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+2020-06-29 19:32:43,913 INFO      [run_generate_guest_bitmap.py:130(<module>)] [StartRun]: run_generate_guest_bitmap.py, cur_time: 2020-06-29 19:32:43
+2020-06-29 19:32:43,925 ERROR     [intersect.py:98(get_data_size)] Exception: [intersect.py:95] not all arguments converted during string formatting
+2020-06-29 19:32:43,926 INFO      [run_generate_guest_bitmap.py:121(run)] guest_data_len: 100000
+2020-06-29 19:32:43,926 ERROR     [run_generate_guest_bitmap.py:43(generate_bool_filter_bits)] Start generate_bool_filter_bits
+2020-06-29 19:32:43,926 ERROR     [run_generate_guest_bitmap.py:50(generate_bool_filter_bits)] Step1/3: Start Guest-run_for_start.
+2020-06-29 19:32:43,926 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_host_big_num_N
+2020-06-29 19:32:43,927 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043']
+2020-06-29 19:32:43,927 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_guest_private_key_D
+2020-06-29 19:32:43,927 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313']
+2020-06-29 19:32:43,927 INFO      [intersect_guest.py:51(init_rsa_param)] init_rsa_param self.host_rsa_n: 123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043, self.d: 3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313
+2020-06-29 19:32:43,927 ERROR     [run_generate_guest_bitmap.py:53(generate_bool_filter_bits)] Step1/3: Guest-run_for_start, time_used: 0 seconds
+2020-06-29 19:32:43,927 ERROR     [run_generate_guest_bitmap.py:60(generate_bool_filter_bits)] Step2/3: Start guest-BloomFilter param init.
+2020-06-29 19:32:43,927 ERROR     [intersect_guest.py:57(gen_bloom_filter_param)] Start-Guest-gen_bloom_filter_param:
+2020-06-29 19:32:43,927 ERROR     [intersect_guest.py:58(gen_bloom_filter_param)] m = {0} 
+ n = {1} 
+ k = {2} 
+ e = {3}% 
+ 
+2020-06-29 19:32:43,927 ERROR     [intersect_guest.py:71(gen_bloom_filter_param)] m = 1755661 
+ n = 110000 
+ k = 11.000000 
+ e = 0.046% 
+ expect_precision = 99.953% 
+ data_size = 0.21M
+2020-06-29 19:32:43,927 ERROR     [hash_set.py:168(gen_hash_set_v3)] hash_size - len(base_set): 9
+2020-06-29 19:32:43,928 ERROR     [hash_set.py:174(gen_hash_set_v3)] gen_hash_set-hash_set_result: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5fa0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5f10>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5880>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5fd0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca070>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5df0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca1c0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca220>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca280>]
+2020-06-29 19:32:43,942 INFO      [intersect_guest.py:81(gen_bloom_filter_param)] hash_set_list deatil: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5fa0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5f10>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5880>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5fd0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca070>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938b5df0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca1c0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca220>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f40938ca280>]
+2020-06-29 19:32:43,943 ERROR     [run_generate_guest_bitmap.py:63(generate_bool_filter_bits)] Step2/3: guest-BloomFilter param init, time_used: 0 seconds
+2020-06-29 19:32:43,943 ERROR     [run_generate_guest_bitmap.py:72(generate_bool_filter_bits)] Step3/3: Start Guest-process guest ids with hash+BloomFilter, gen bits_A.
+2020-06-29 19:32:43,943 INFO      [intersect_guest.py:148(generate_guest_ids_bloom_filter_bits)] Start generate_guest_ids_bloom_filter_bits
+2020-06-29 19:32:43,943 INFO      [intersect_guest.py:163(generate_guest_ids_bloom_filter_bits)] split_data_dir: ./psi_intersect/transfer_files/guest_split_file files_list empty
+2020-06-29 19:32:43,943 INFO      [intersect_guest.py:166(generate_guest_ids_bloom_filter_bits)] generate_guest_ids_bloom_filter_bits, file_list: ['./psi_intersect/transfer_files/phone_num_guest.csv']
+2020-06-29 19:32:43,957 INFO      [intersect_guest.py:183(generate_guest_ids_bloom_filter_bits)] MultiProcess, total_split_file_size: 1, cur_split_file_idx: 0 cur_rool: 0, cur_file_path: ./psi_intersect/transfer_files/guest_split_file/./psi_intersect/transfer_files/phone_num_guest.csv
+2020-06-29 19:32:43,958 INFO      [intersect_guest.py:192(generate_guest_ids_bloom_filter_bits)] running_rool_size: 1
+2020-06-29 19:32:43,963 INFO      [intersect_guest.py:196(generate_guest_ids_bloom_filter_bits)] process_succ, result_bits_map size: 0
+2020-06-29 19:32:43,969 ERROR     [run_generate_guest_bitmap.py:76(generate_bool_filter_bits)] Step3/3: Guest-process generate bits_A, time_used: 0 seconds
+2020-06-29 19:32:43,970 ERROR     [run_generate_guest_bitmap.py:83(generate_bool_filter_bits)] The function total run time is : 0 seconds
+2020-06-29 19:33:15,367 INFO      [run_generate_guest_bitmap.py:129(<module>)] 
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+2020-06-29 19:33:15,367 INFO      [run_generate_guest_bitmap.py:130(<module>)] [StartRun]: run_generate_guest_bitmap.py, cur_time: 2020-06-29 19:33:15
+2020-06-29 19:33:15,380 ERROR     [intersect.py:98(get_data_size)] Exception: [intersect.py:95] not all arguments converted during string formatting
+2020-06-29 19:33:15,381 INFO      [run_generate_guest_bitmap.py:121(run)] guest_data_len: 100000
+2020-06-29 19:33:15,381 ERROR     [run_generate_guest_bitmap.py:43(generate_bool_filter_bits)] Start generate_bool_filter_bits
+2020-06-29 19:33:15,381 ERROR     [run_generate_guest_bitmap.py:50(generate_bool_filter_bits)] Step1/3: Start Guest-run_for_start.
+2020-06-29 19:33:15,381 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_host_big_num_N
+2020-06-29 19:33:15,381 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043']
+2020-06-29 19:33:15,381 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_guest_private_key_D
+2020-06-29 19:33:15,381 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313']
+2020-06-29 19:33:15,381 INFO      [intersect_guest.py:51(init_rsa_param)] init_rsa_param self.host_rsa_n: 123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043, self.d: 3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313
+2020-06-29 19:33:15,381 ERROR     [run_generate_guest_bitmap.py:53(generate_bool_filter_bits)] Step1/3: Guest-run_for_start, time_used: 0 seconds
+2020-06-29 19:33:15,381 ERROR     [run_generate_guest_bitmap.py:60(generate_bool_filter_bits)] Step2/3: Start guest-BloomFilter param init.
+2020-06-29 19:33:15,381 ERROR     [intersect_guest.py:57(gen_bloom_filter_param)] Start-Guest-gen_bloom_filter_param:
+2020-06-29 19:33:15,381 ERROR     [intersect_guest.py:58(gen_bloom_filter_param)] m = {0} 
+ n = {1} 
+ k = {2} 
+ e = {3}% 
+ 
+2020-06-29 19:33:15,382 ERROR     [intersect_guest.py:71(gen_bloom_filter_param)] m = 1755661 
+ n = 110000 
+ k = 11.000000 
+ e = 0.046% 
+ expect_precision = 99.953% 
+ data_size = 0.21M
+2020-06-29 19:33:15,382 ERROR     [hash_set.py:168(gen_hash_set_v3)] hash_size - len(base_set): 9
+2020-06-29 19:33:15,382 ERROR     [hash_set.py:174(gen_hash_set_v3)] gen_hash_set-hash_set_result: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcfa0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcf10>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbc880>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcfd0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3070>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd30d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcdf0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd31c0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3220>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3280>]
+2020-06-29 19:33:15,397 INFO      [intersect_guest.py:81(gen_bloom_filter_param)] hash_set_list deatil: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcfa0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcf10>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbc880>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcfd0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3070>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd30d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebbcdf0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd31c0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3220>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f0eaebd3280>]
+2020-06-29 19:33:15,397 ERROR     [run_generate_guest_bitmap.py:63(generate_bool_filter_bits)] Step2/3: guest-BloomFilter param init, time_used: 0 seconds
+2020-06-29 19:33:15,397 ERROR     [run_generate_guest_bitmap.py:72(generate_bool_filter_bits)] Step3/3: Start Guest-process guest ids with hash+BloomFilter, gen bits_A.
+2020-06-29 19:33:15,397 INFO      [intersect_guest.py:148(generate_guest_ids_bloom_filter_bits)] Start generate_guest_ids_bloom_filter_bits
+2020-06-29 19:33:15,397 INFO      [intersect_guest.py:163(generate_guest_ids_bloom_filter_bits)] split_data_dir: ./psi_intersect/transfer_files/guest_split_file files_list empty
+2020-06-29 19:33:15,397 INFO      [intersect_guest.py:166(generate_guest_ids_bloom_filter_bits)] generate_guest_ids_bloom_filter_bits, file_list: ['./psi_intersect/transfer_files/phone_num_guest.csv']
+2020-06-29 19:33:15,410 INFO      [intersect_guest.py:183(generate_guest_ids_bloom_filter_bits)] MultiProcess, total_split_file_size: 1, cur_split_file_idx: 0 cur_rool: 0, cur_file_path: ./psi_intersect/transfer_files/guest_split_file/./psi_intersect/transfer_files/phone_num_guest.csv
+2020-06-29 19:33:15,411 INFO      [intersect_guest.py:192(generate_guest_ids_bloom_filter_bits)] running_rool_size: 1
+2020-06-29 19:33:15,416 INFO      [intersect_guest.py:196(generate_guest_ids_bloom_filter_bits)] process_succ, result_bits_map size: 0
+2020-06-29 19:33:15,421 ERROR     [run_generate_guest_bitmap.py:76(generate_bool_filter_bits)] Step3/3: Guest-process generate bits_A, time_used: 0 seconds
+2020-06-29 19:33:15,421 ERROR     [run_generate_guest_bitmap.py:83(generate_bool_filter_bits)] The function total run time is : 0 seconds
+2020-06-29 19:34:02,791 INFO      [run_generate_guest_bitmap.py:129(<module>)] 
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+2020-06-29 19:34:02,791 INFO      [run_generate_guest_bitmap.py:130(<module>)] [StartRun]: run_generate_guest_bitmap.py, cur_time: 2020-06-29 19:34:02
+2020-06-29 19:34:02,816 INFO      [run_generate_guest_bitmap.py:121(run)] guest_data_len: 100000
+2020-06-29 19:34:02,816 ERROR     [run_generate_guest_bitmap.py:43(generate_bool_filter_bits)] Start generate_bool_filter_bits
+2020-06-29 19:34:02,816 ERROR     [run_generate_guest_bitmap.py:50(generate_bool_filter_bits)] Step1/3: Start Guest-run_for_start.
+2020-06-29 19:34:02,816 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_host_big_num_N
+2020-06-29 19:34:02,817 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043']
+2020-06-29 19:34:02,817 INFO      [base_file_opt.py:18(gen_full_path)] gen_full_path: ./psi_intersect/transfer_files/stage0_guest_private_key_D
+2020-06-29 19:34:02,817 INFO      [base_file_opt.py:29(get_file_cont_to_str_list)] get_file_cont_to_str_list: ['3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313']
+2020-06-29 19:34:02,817 INFO      [intersect_guest.py:51(init_rsa_param)] init_rsa_param self.host_rsa_n: 123851603436066472589831305956284336431228306065368008252189923120625412005363244905786338451812981153912385016156557632737285104960522333609992177785042185901785741073841513055857529353444813496693444484247014401617352548909487856949467505677150683997481465302219700770141736953301826133282715734540608615043, self.d: 3208080207899506997849207540156823836023722374973685462176145527427874115336175083605628647830892103027308716853976194444296919779613521981460541362182856374128596034920232952209411331952987110519843756632446444077397573488801851978668719456230718583677388246950977315126178336016828606052646240860288559313
+2020-06-29 19:34:02,817 ERROR     [run_generate_guest_bitmap.py:53(generate_bool_filter_bits)] Step1/3: Guest-run_for_start, time_used: 0 seconds
+2020-06-29 19:34:02,817 ERROR     [run_generate_guest_bitmap.py:60(generate_bool_filter_bits)] Step2/3: Start guest-BloomFilter param init.
+2020-06-29 19:34:02,817 ERROR     [intersect_guest.py:57(gen_bloom_filter_param)] Start-Guest-gen_bloom_filter_param:
+2020-06-29 19:34:02,817 ERROR     [intersect_guest.py:58(gen_bloom_filter_param)] m = {0} 
+ n = {1} 
+ k = {2} 
+ e = {3}% 
+ 
+2020-06-29 19:34:02,817 ERROR     [intersect_guest.py:71(gen_bloom_filter_param)] m = 1755661 
+ n = 110000 
+ k = 11.000000 
+ e = 0.046% 
+ expect_precision = 99.953% 
+ data_size = 0.21M
+2020-06-29 19:34:02,817 ERROR     [hash_set.py:168(gen_hash_set_v3)] hash_size - len(base_set): 9
+2020-06-29 19:34:02,818 ERROR     [hash_set.py:174(gen_hash_set_v3)] gen_hash_set-hash_set_result: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b4983e80>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b4983fa0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b4983df0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b070>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b220>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b2e0>]
+2020-06-29 19:34:02,832 INFO      [intersect_guest.py:81(gen_bloom_filter_param)] hash_set_list deatil: [<psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b4983e80>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b4983fa0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b4983df0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b070>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b0d0>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b130>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b190>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b040>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b220>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b280>, <psi_intersect.hasher.hash_set.HashFunctor_V3 object at 0x7f36b499b2e0>]
+2020-06-29 19:34:02,832 ERROR     [run_generate_guest_bitmap.py:63(generate_bool_filter_bits)] Step2/3: guest-BloomFilter param init, time_used: 0 seconds
+2020-06-29 19:34:02,833 ERROR     [run_generate_guest_bitmap.py:72(generate_bool_filter_bits)] Step3/3: Start Guest-process guest ids with hash+BloomFilter, gen bits_A.
+2020-06-29 19:34:02,833 INFO      [intersect_guest.py:148(generate_guest_ids_bloom_filter_bits)] Start generate_guest_ids_bloom_filter_bits
+2020-06-29 19:34:02,833 INFO      [intersect_guest.py:166(generate_guest_ids_bloom_filter_bits)] generate_guest_ids_bloom_filter_bits, file_list: ['00']
+2020-06-29 19:34:02,846 INFO      [intersect_guest.py:183(generate_guest_ids_bloom_filter_bits)] MultiProcess, total_split_file_size: 1, cur_split_file_idx: 0 cur_rool: 0, cur_file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:34:02,848 INFO      [intersect_guest.py:192(generate_guest_ids_bloom_filter_bits)] running_rool_size: 1
+2020-06-29 19:34:02,865 ERROR     [intersect_guest.py:109(generate_bloom_bits_by_file_split_id)] Cur_idx: 00, file_path: ./psi_intersect/transfer_files/guest_split_file/00
+2020-06-29 19:34:07,415 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 10000 / 3000000
+2020-06-29 19:34:11,959 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 20000 / 3000000
+2020-06-29 19:34:16,509 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 30000 / 3000000
+2020-06-29 19:34:21,063 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 40000 / 3000000
+2020-06-29 19:34:25,621 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 50000 / 3000000
+2020-06-29 19:34:30,171 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 60000 / 3000000
+2020-06-29 19:34:34,719 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 70000 / 3000000
+2020-06-29 19:34:39,266 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 80000 / 3000000
+2020-06-29 19:34:43,816 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 90000 / 3000000
+2020-06-29 19:34:48,365 ERROR     [intersect_guest.py:122(generate_bloom_bits_by_file_split_id)] BloomFilter_process_split_path: ./psi_intersect/transfer_files/guest_split_file/00 - 100000 / 3000000
+2020-06-29 19:34:48,367 ERROR     [intersect_guest.py:128(generate_bloom_bits_by_file_split_id)] write_bits_to_file, split_id: 00,  data_file_path: ./psi_intersect/transfer_files/guest_split_file/00 bit_result_path: ./psi_intersect/transfer_files/guest_bits_file/00 bit_count_1_num: 817168 bloom_filter_m: 1755661
+2020-06-29 19:34:48,367 ERROR     [intersect_guest.py:137(generate_bloom_bits_by_file_split_id)] generate_bloom_bits_by_file_split_id succ: 00
+2020-06-29 19:34:48,370 INFO      [intersect_guest.py:196(generate_guest_ids_bloom_filter_bits)] process_succ, result_bits_map size: 1
+2020-06-29 19:34:48,372 ERROR     [intersect_guest.py:200(generate_guest_ids_bloom_filter_bits)] processed_id: 00, bit_array_1_size: 817168
+2020-06-29 19:34:48,373 ERROR     [intersect_guest.py:218(generate_guest_ids_bloom_filter_bits)] write_all_bits_to_file,  data_file_path: ./psi_intersect/transfer_files/phone_num_guest.csv bit_result_path: ./psi_intersect/transfer_files/guest_all_bits bit_count_1_num: 817168
+2020-06-29 19:34:48,378 ERROR     [run_generate_guest_bitmap.py:76(generate_bool_filter_bits)] Step3/3: Guest-process generate bits_A, time_used: 45 seconds
+2020-06-29 19:34:48,378 ERROR     [run_generate_guest_bitmap.py:83(generate_bool_filter_bits)] The function total run time is : 45 seconds
